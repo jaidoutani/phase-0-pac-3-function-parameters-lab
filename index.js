@@ -7,11 +7,11 @@ function introductionWithLanguage(name, language) {
     console.log("Aki", "Ember.js"); 
     return(`Hi, my name is ${name} and I am learning to program in ${language}.`);
 }
-function introductionWithLanguageOptional(name, language) {
+function introductionWithLanguageOptional(name, language="JavaScript") {
 //takes in two arguments, a name and a language, and language defaults to JavaScript
-    console.log("Aki", language="JavaScript");
-    return(`Hi, my name is ${name} and I am learning to program in ${language}.`);
+    console.log("Gracie"); 
     
+    return(`Hi, my name is ${name} and I am learning to program in ${language}.`);
 }
 function introductionWithLanguageOptional(name, language) {
 /*takes in two arguments, a name and a language, and the default value can be overridden with an argument:
